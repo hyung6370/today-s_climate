@@ -35,6 +35,8 @@ class WeatherViewController: UIViewController {
     }
     
     @IBAction func onOffTapped(_ sender: UISwitch) {
+        modeToggle.onTintColor = UIColor.purple
+        
         if sender.isOn {
             overrideUserInterfaceStyle = .dark
         }
